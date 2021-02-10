@@ -17,6 +17,10 @@ gem 'webpacker', '~> 4.0'
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.7'
+gem 'uglifier', '~> 2.7', '>= 2.7.2'
+gem 'coffee-rails', '~> 5.0'
+gem 'jquery-rails', '~> 4.4'
+gem 'sdoc', '~> 2.0', '>= 2.0.3', group: :doc
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
@@ -31,6 +35,7 @@ gem 'bootsnap', '>= 1.4.2', require: false
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'spring', '~> 2.1', '>= 2.1.1'
 end
 
 group :development do
