@@ -21,6 +21,8 @@ gem 'uglifier', '~> 2.7', '>= 2.7.2'
 gem 'coffee-rails', '~> 5.0'
 gem 'jquery-rails', '~> 4.4'
 gem 'sdoc', '~> 2.0', '>= 2.0.3', group: :doc
+gem 'slim', '~> 4.1', :require => 'slim'
+gem 'slim_assets', '~> 0.0.3'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
